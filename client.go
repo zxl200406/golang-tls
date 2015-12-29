@@ -51,20 +51,4 @@ func main() {
 		time.Sleep(1 * 1e9)
 	}
 
-	// message := "Hello\n"
-	// n, err := io.WriteString(conn, message)
-	// if err != nil {
-	// 	log.Fatalf("client: write: %s", err)
-	// }
-	// log.Printf("client: wrote %q (%d bytes)", message, n)
-
-	// reply := make([]byte, 256)
-	// for {
-	// 	n, err = conn.Read(reply)
-	// 	if err != nil {
-	// 		log.Println(err)
-	// 	}
-	// 	log.Printf("client: read %q (%d bytes)", string(reply[:n]), n)
-	// }
-
 }
